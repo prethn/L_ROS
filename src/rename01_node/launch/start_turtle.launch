@@ -1,0 +1,12 @@
+<!-- 启动多个乌龟gui节点 -->
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim"/>
+    <!-- 名称重映射 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="xiaoHeiZi"/>
+    <!-- 命名空间 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" ns="DaWang"/>
+    <!-- 名称 + 命名空间 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="xiaoHeiZi" ns="DaWang">
+    </node>
+
+</launch>

@@ -1,0 +1,24 @@
+my_turtle:
+  background_b: 255
+  background_g: 86
+  background_r: 69
+  bg_b: 122
+  bg_g: 22
+  bg_r: 100
+  param_B: 3.14
+param_A: 100
+rosdistro: 'noetic
+
+  '
+roslaunch:
+  uris:
+    host_thinkbook__37899: http://ThinkBook:37899/
+    host_thinkbook__38609: http://ThinkBook:38609/
+rosversion: '1.16.0
+
+  '
+run_id: 6983566e-b60c-11ee-9ff2-3f16ddeee1d3
+world:
+  bg_b: 122
+  bg_g: 22
+  bg_r: 100

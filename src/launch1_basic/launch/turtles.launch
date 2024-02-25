@@ -1,0 +1,12 @@
+<launch>
+<!-- 组的使用 -->
+<!-- 启动两对乌龟gui 与键盘控制节点 -->
+    <group ns="first">
+        <include file="$(find launch1_basic)/launch/start_turtle.launch" />
+    </group>
+
+    <group ns="second">
+        <node pkg="turtlesim" type="turtlesim_node" name="my_turtle" output="screen" required="true" />
+        <node pkg="turtlesim" type="turtle_teleop_key" name="my_key" output="screen" />
+    </group>
+</launch>

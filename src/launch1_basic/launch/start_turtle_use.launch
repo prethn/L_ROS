@@ -1,0 +1,5 @@
+<!-- 需要复用start_turtle.launch -->
+<launch>
+    <include file="$(find launch1_basic)/launch/start_turtle.launch" />
+    <!-- 启动其他节点 -->
+</launch>
